@@ -1,0 +1,17 @@
+/* Add application styles & imports to this file! */
+@import "~bootstrap/dist/css/bootstrap.css";
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+/* .container{
+   height: 100vh !important;
+} */
+
+body{
+  position: relative; 
+  background-color: pink; 
+}
